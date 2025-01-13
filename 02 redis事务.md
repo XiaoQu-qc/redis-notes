@@ -7,5 +7,6 @@
 1)全体连坐：当执行队列中的命令有编译错误时，整个事务无法EXEC（nil
 2)源头寨主：当出现运行时错误时，只有引起错误的那条指令不会被执行，其他指令都会被正常执行，这就是为什么redis并没有数据库那样的原子性，即redis不提供回滚策略
 3）redis采用乐观锁保证高性能和高并发，主要通过watch key命令实现，如果在EXEC之前修改了被watch的键，那么整个事务会被取消，以确保数据的同步，注意这时事务中的命令还在队列中，没有EXEC其他命令没有被阻塞可以执行
-![Uploading 827e04b72d2647e335f061a3c8e5abaf.png…]()
+<img width="687" alt="827e04b72d2647e335f061a3c8e5abaf" src="https://github.com/user-attachments/assets/60fecb8e-bbc5-4276-be87-f1142dc412f4" />
+
 
