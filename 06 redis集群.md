@@ -8,3 +8,8 @@
 
 <img width="627" alt="f602f314f26171d37115517eb6c42ca3" src="https://github.com/user-attachments/assets/06cd3086-2750-42df-bd80-f03e65d083a9" />
 
+### 3.槽位slot和分片
+最大槽位为16384个，但是通常情况下不要超过1000个
+<img width="744" alt="044469638c90e400533aac0130eb44f0" src="https://github.com/user-attachments/assets/945298df-3879-49e2-bd03-219dbcc63342" />
+
+<img width="643" alt="9210a0c217b5ee43dd3d9d3e5ebcbbba" src="https://github.com/user-attachments/assets/aae5defa-444b-49a5-89c8-1140c0cdb8eb" />
