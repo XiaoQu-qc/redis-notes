@@ -13,3 +13,6 @@
 <img width="744" alt="044469638c90e400533aac0130eb44f0" src="https://github.com/user-attachments/assets/945298df-3879-49e2-bd03-219dbcc63342" />
 
 <img width="643" alt="9210a0c217b5ee43dd3d9d3e5ebcbbba" src="https://github.com/user-attachments/assets/aae5defa-444b-49a5-89c8-1140c0cdb8eb" />
+
+<img width="541" alt="04dcceeaba59122b8941d3b0a7ef2140" src="https://github.com/user-attachments/assets/f2d1df8a-7b75-40c5-a840-00e3b6355a01" />
+1）redis集群中不支持mset(mget) k1 v1 k2 v2操作，因为keys request dont hash in same slot，要用mset k1{x} v1 k2{x} v2通配符操作，这样做不会调用CRChash映射操作
